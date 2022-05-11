@@ -9,10 +9,10 @@ function App() {
 
   const manejarClick = () => {
     setNumClicks(numClicks + 1);
-  }
+  };
   const reiniciarContador = () => {
     setNumClicks(0);
-  }
+  };
 
   return (
     <div className="App">
